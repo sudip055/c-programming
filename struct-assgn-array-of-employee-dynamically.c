@@ -23,9 +23,9 @@ int main()
 	for(i=0;i<n;i++)
 	{
 		printf("enter the name :\t");
-		scanf("%s",&(e+i)->name);
+		scanf("%s",(e+i)->name);
 		printf("enter the address :\t");
-		scanf("%s",&(e+i)->address);
+		scanf("%s",(e+i)->address);
 		printf("enter the age :\t");
 		scanf("%d",&(e+i)->age);
 		printf("enter the salary :\t\n");
